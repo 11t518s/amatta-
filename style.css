@@ -1,0 +1,44 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.challengeNavigation {
+  width: 500px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding: 100px 20px;
+  background-color: beige;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 20px;
+}
+
+.today {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.amattaTable {
+  display: flex;
+  justify-content: center;
+}
+
+.footerImg {
+  width: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  margin-top: 40px;
+}
+
+.footerLink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
