@@ -15,42 +15,43 @@
   </head>
   <body>
     <div class="challengeNavigation">
-      <header>최봉수의 1일 1커밋 도전기</header>
-      <h1 class="mainTitle">나는 아마따를 통해 1일 1커밋을 진행하고 있다.</h1>
+  <img class="amaddaImg" src="amadda.png" />
+      <h1>최봉수의 1일 1커밋 도전기</h1>
+      <h2 class="mainTitle">나는 아마따를 통해 1일 1커밋을 진행하고 있다.</h2>
       <div class="today">오늘 날짜 : <span id="date"></span></div>
       <table class="amattaTable">
         <tr>
           <!-- 첫번째 줄 시작 -->
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
         </tr>
         <!-- 첫번째 줄 끝 -->
         <tr>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
-          <td>💻</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
         </tr>
         <!-- 두번째 줄 끝 -->
         <tr>
-          <td>💻</td>
-          <td>💻</td>
+          <td>23</td>
+          <td>24</td>
           <td>25</td>
           <td>26</td>
           <td>27</td>
@@ -61,6 +62,7 @@
           <td>32</td>
           <td>33</td>
         </tr>
+        <!-- 세번째 줄 끝 -->
         <tr>
           <td>34</td>
           <td>35</td>
@@ -74,6 +76,7 @@
           <td>43</td>
           <td>44</td>
         </tr>
+        <!-- 네번째 줄 끝 -->
         <tr>
           <td>45</td>
           <td>46</td>
@@ -87,6 +90,7 @@
           <td>54</td>
           <td>55</td>
         </tr>
+        <!-- 다섯번째 줄 끝 -->
         <tr>
           <td>56</td>
           <td>57</td>
@@ -100,13 +104,14 @@
           <td>65</td>
           <td>66</td>
         </tr>
+        <!-- 여섯번째 줄 끝 -->
       </table>
       <footer>
-        <a href="https://www.naver.com" class="footerLink"
+        <a href="https://instagram.com/ah.madda?utm_medium=copy_link" class="footerLink"
           ><p>아마따 인스타 바로가기</p>
           <img class="footerImg" src="instagram.png"
         /></a>
-        <a href="https://www.naver.com" class="footerLink"
+        <a href="https://www.notion.so/99a6c8f4eb344b24b33344420c3080cd" class="footerLink"
           ><p>아마따 노션 바로가기</p>
           <img class="footerImg" src="notion.png"
         /></a>
@@ -121,5 +126,6 @@
 
     const dateString = year + "년 " + month + "월 " + day + "일";
     document.getElementById("date").innerText = dateString;
+    document.getElementById("date").innerHTML = `<span>${dateString}</span>`;
   </script>
 </html>

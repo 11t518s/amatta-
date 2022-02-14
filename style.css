@@ -1,9 +1,9 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
+
 .challengeNavigation {
   width: 500px;
-
   margin: 0 auto;
   margin-top: 100px;
   padding-top: 100px;
@@ -15,7 +15,9 @@ body {
 .mainTitle {
   font-size: 20px;
 }
-
+.amaddaImg {
+  width: 200px;
+}
 .today {
   text-align: right;
   margin-bottom: 40px;
