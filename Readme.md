@@ -33,3 +33,4 @@ create sandbox => vanilla
 
 ## javascript
 거기다가 몇가지 자동화 기능들을 넣고싶다.
+자바스크립트로 날짜 입력하기
